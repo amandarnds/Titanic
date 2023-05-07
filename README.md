@@ -22,3 +22,64 @@ Titanic was a British luxury liner that tragically sank on its maiden voyage in 
 <p> This data set contains 10 variables where the survival is the target variable <p> 
 
 <h2>4.  Features </h2>
+
+ <table>
+  <tr>
+    <th> Variable </th>
+    <th> Definition</th>
+    <th> Key</th>
+  </tr>
+  <tr>
+    <td>PassengerId</td>
+    <td> Id unique for each passenger </td>
+    <td> </td>
+    <tr>
+    <td>Name</td>
+    <td> Name of each passenger</td>
+    <td> </td>
+    <tr>
+    <td>survival</td>
+    <td>survival</td>
+    <td>0 = No, 1 = Yes</td>
+    <tr>
+    <td>pclass</td>
+    <td>A proxy for socio-economic status (SES) </td>
+    <td>1 = 1st (upper), 2 = 2nd (middle), 3 = 3rd(lower)</td>
+    <tr>
+    <td>sex</td>
+    <td>Sex</td>
+    <td>male or female</td>
+    <tr>
+    <td>Age</td>
+    <td>Age</td>
+    <td> in years </td>
+    <tr>
+    <td>sibsp</td>
+    <td># of siblings / spouses aboard the Titanic</td>
+    <td>The dataset defines family relations in this way...
+Sibling = brother, sister, stepbrother, stepsister
+Spouse = husband, wife (mistresses and fiancés were ignored) </td>
+    <tr>
+    <td>parch</td>
+    <td># of parents/children aboard the Titanic</td>
+    <td>The dataset defines family relations in this way...
+Parent = mother, father
+Child = daughter, son, stepdaughter, stepson
+Some children travelled only with a nanny, therefore parch=0 for them.</td>
+    <tr>
+    <td>ticket</td>
+    <td>number of the ticket</td>
+    <tr>
+    <td>fare</td>
+    <td>Passenger fare</td>
+    <td>the value payed</td>
+    <tr>
+    <td>Cabin</td>
+    <td>Cabin number</td>
+    <td>number of the cabin</td>
+    <tr>
+    <td>embarked</td>
+    <td>Port of Embarkation</td>
+    <td>C = Cherbourg, Q = Queenstown, S = Southampton</td>
+  </tr>
+</table>
